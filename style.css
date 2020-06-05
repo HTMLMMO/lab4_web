@@ -1,0 +1,200 @@
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+.p {
+    display: none;
+}
+
+
+header{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#EFEFEF, #B9B9B9);
+  box-sizing: border-box;
+  padding: 10px 10px 0px 5px;
+
+}
+header span{
+  font-size:20px;
+}
+.ul-head{
+  display:flex;
+  flex-wrap:wrap;
+}
+.button{
+  background: none;
+  border:1px solid #454644;
+  padding:5px 16px;
+  color:red;
+  font-size:15px;
+  font-weight:bold;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.but:hover{
+  background-color: snow;
+}
+
+.first_screen{
+  background-image: url(file:///C:/Users/%D0%BF%D0%BA/Desktop/%D0%9B.%D0%A0%20%E2%84%964%20%D0%9A%D0%BE%D0%BD%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0%20%D0%9A18-1%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D1%81%20%D0%BE%D0%B1%D1%82%D0%B8%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC/img/img-1.jpg);
+  background-size: cover;
+  height:100vh;
+  width:100%;
+}
+.block{
+    line-height: 150%;
+}
+
+.h1{
+  position: absolute;
+  top:200px;
+  left:100px;
+
+  background-color: gray;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  border:1px solid red;
+  border-radius: 20px 0px 20px 0px;
+}
+.colors{
+  width:100%;
+  position: absolute;
+  top:600px;
+  left:0px;
+}
+.first_colour{
+  width:100%;
+  height:100px;
+  background-color: #4C4B4B;
+}
+.second_colour{
+  width:100%;
+  height:100px;
+  background-color: #EA1E1E;
+}
+.third-colour{
+  width:100%;
+  height:100px;
+  background-color: #E7D31E;
+}
+
+.info{
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+
+
+  position: absolute;
+  top:550px;
+  left:0px;
+  width:100%;
+  box-sizing: border-box;
+  padding: 0px 40px;
+}
+
+.blocks-info{
+  background: linear-gradient(#EFEFEF, #B9B9B9);
+  box-sizing: border-box;
+  padding: 55px 10px 0px 15px;
+
+  width:250px;
+  height:auto;
+  border:2px solid grey;
+  border-radius:25px;
+  font-size:14px;
+}
+.button-info{
+    margin-top: 30px;
+  margin-left:50px;
+  padding: 15px 20px;
+  font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 100%;
+}
+
+.second_screen{
+  background-image: url(file:///C:/Users/%D0%BF%D0%BA/Desktop/%D0%9B.%D0%A0%20%E2%84%964%20%D0%9A%D0%BE%D0%BD%D0%BE%D0%BD%D0%BE%D0%B2%20%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0%20%D0%9A18-1%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D1%81%20%D0%BE%D0%B1%D1%82%D0%B8%D0%BA%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC/img/img-2.jpg);
+  background-size: cover;
+  height:100vh;
+  width:100%;
+}
+
+.block-cont-two{
+  background-color: #eaeae8;
+  width: 300px;
+  height:300px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
+
+  position: relative;
+  top:150px;
+}
+.block-cont-two p{
+  width:200px;
+  font-size: 13px;
+    position: relative;
+    top:100px;
+    left:50px;
+}
+
+
+.footer{
+  background-color: #040406;
+  color:white;
+}
+.footer>span+span{
+display: block;
+  text-align: right;
+}
+
+@media (max-width:1086px){
+  .info{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100%;
+  }
+  .blocks-info{
+    margin-top:10px;
+  }
+}
+
+@media (min-height:800px){
+  .info{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100%;
+  }
+  .blocks-info{
+    margin-top:10px;
+  }
+  .colors{
+    position: relative;
+    top:0px;
+    left:0px;
+  }
+    
+}
+@media (max-width:320px){
+  .block-cont-two{
+    position: relative;
+    top:10px;
+  }
+    .logo {
+    display: none;
+}
+    .menu{
+        display: none;
+    }
+
+}
